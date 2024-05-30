@@ -1,0 +1,88 @@
+/* Цветовая палитра */
+:root {
+  --primary-color: #3498db; // голубой
+  --secondary-color: #e74c3c; // красный
+  --text-color: #333; // черный
+}
+
+/* Стили для навигационного меню */
+.navbar {
+    background-color: #8bb0c9;
+    color: #291414;
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgb(0 0 0) !important;
+}
+
+.navbar-brand {
+  color: #ede5e5;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+/* Стили для заголовков */
+h1, h2, h3 {
+  color: var(--text-color);
+}
+
+/* Стили для кнопок */
+.btn-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: #fff;
+  border: none;
+}
+
+/* Стили для форм */
+.form-control {
+  border: 1px solid #ccc;
+}
+
+/* Стили для табов */
+.nav-tabs .nav-link.active {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+/* Дополнительные стили */
+.container {
+  margin-top: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card-header {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.card-body {
+  color: var(--text-color);
+}
+
+body {
+    background-color: #5b638200;
+}
+
+a {
+    color: #00d3fd;
+    text-decoration: underline;
+}
+
+.navbar-brand:hover {
+background: #0078BF;
+color: #fff;
+}
